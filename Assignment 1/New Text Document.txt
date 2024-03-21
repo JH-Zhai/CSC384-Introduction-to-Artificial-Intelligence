@@ -1,0 +1,5 @@
+for i in range(foodGrid.height):
+        for j in range(foodGrid.width):
+            if foodGrid[j][i]:
+                counter += 1
+                re_var += abs(position[0] - j) + abs(position[1] - i)
